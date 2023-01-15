@@ -17,5 +17,6 @@ python ingestion.py --type etl --to demo_pipeline_project.employees --service-ac
 
 ## How to Run the Script on schedule
 1. Copy the `cron.sh` contents.
-2. Type `crontab -e` on your terminal, then paste the content from no.1 there.
+2. Type `crontab -e` on your terminal, then paste the content from no.1 there.<br>
+See [Crontab Guru](https://crontab.guru/) to help you on write the proper cron syntax
 3. Save the file.
