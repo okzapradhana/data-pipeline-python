@@ -1,0 +1,3 @@
+* * * * * cd /Users/okzapradhana/workshops/de-kita/pipeline-python && ./de-kita-venv/bin/python test.py >> test-cron.log 2>&1
+0 */1 * * * cd /Users/okzapradhana/workshops/de-kita/pipeline-python && ./de-kita-venv/bin/python etl_mysql_bigquery_hourly.py >> pipeline-cron.log 2>&1
+30 0 * * */1 cd /Users/okzapradhana/workshops/de-kita/pipeline-python && ./de-kita-venv/bin/python elt_datahub_bigquery_daily.py >> pipeline-cron.log 2>&1
